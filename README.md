@@ -1,11 +1,11 @@
-framework7 template project
+dailyreport  project
 ===============================
 
 # Usage:
 
 * $ git clone ....
-* $ cd your_path/f7tmplapp
+* $ cd your_path/index.html?user=linlj
 * $ php -S localhost:3000
 * open your browser then visit: http://localhost:3000
 
-@2015/11/25
+@2016/6/28
