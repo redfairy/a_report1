@@ -1,0 +1,42 @@
+{
+  "name": "a_report1",
+  "authors": [
+    "redfairy <red_fairy@163.com>"
+  ],
+  "description": "framework7&hightcharts",
+  "main": "",
+  "license": "MIT",
+  "homepage": "index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Framework7": "framework7#~1.3.5",
+    "font-awesome": "~4.5.0",
+    "handlebars": "~4.0.5",
+    "text": "~2.0.14",
+    "q": "~1.4.1",
+    "requirejs": "~2.1.22",
+    "highcharts": "hightcharts#~4.1.10",
+    "jquery": "~2.1.4",
+    "moment": "~2.11.1"
+
+  },
+  "overrides": {
+    "Framework7": {
+      "main": [
+        "dist/css/framework7.material.min.css",
+        "dist/css/framework7.material.colors.min.css",
+        "dist/js/framework7.min.js"
+      ]
+    },
+    "font-awesome": {
+      "main": "css/font-awesome.min.css"
+    }
+  }
+}

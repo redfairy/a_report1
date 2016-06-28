@@ -1,0 +1,178 @@
+{
+	"id": "xxx",
+	"name": "网络健康度",
+	"type": "DEFAULT",
+	"time": "2015-09",
+	"panels": [{
+		"id": "xxxx",
+		"name": "LTE",
+		"type": "DEFAULT",
+		"link_set": "xxxx",
+		"kpis": [{
+			"id": "kpiid",
+			"kpi_name": "LTE",
+			"ne_dim": "xx",
+			"time_dim": "month",
+			"unit": "xx",
+			"is_up_good": 1,
+			"full_score": 12,
+			"threshold": 20,
+			"values": [{
+				"ne_name": "全网",
+				"value": 10,
+				"value_name": "本月得分"
+			}]
+		}, {
+			"id": "kpiid",
+			"kpi_name": "LTE",
+			"ne_dim": "xx",
+			"time_dim": "month",
+			"unit": "xx",
+			"is_up_good": 1,
+			"full_score": 12,
+			"threshold": 20,
+			"is_bad": true,
+			"values": [{
+				"ne_name": "全网",
+				"value": 10,
+				"value_name": "月环比"
+			}]
+		}]
+	}, {
+		"id": "xxxx",
+		"name": "WLAN",
+		"type": "DEFAULT",
+		"link_set": "xxxx",
+		"kpis": [{
+			"id": "kpiid",
+			"kpi_name": "WLAN",
+			"ne_dim": "xx",
+			"time_dim": "month",
+			"unit": "xx",
+			"is_up_good": 1,
+			"full_score": 12,
+			"threshold": 20,
+			"values": [{
+				"ne_name": "全网",
+				"value": 10,
+				"value_name": "本月得分"
+			}]
+		}, {
+			"id": "kpiid",
+			"kpi_name": "LTE",
+			"ne_dim": "xx",
+			"time_dim": "month",
+			"unit": "xx",
+			"is_up_good": 1,
+			"full_score": 12,
+			"threshold": 20,
+			"values": [{
+				"ne_name": "全网",
+				"value": 10,
+				"value_name": "月环比"
+			}]
+		}]
+	}, {
+		"id": "xxxx",
+		"name": "WLAN1",
+		"type": "DEFAULT",
+		"link_set": "xxxx",
+		"kpis": [{
+			"id": "kpiid",
+			"kpi_name": "WLAN",
+			"ne_dim": "xx",
+			"time_dim": "month",
+			"unit": "xx",
+			"is_up_good": 1,
+			"full_score": 12,
+			"threshold": 20,
+			"values": [{
+				"ne_name": "全网",
+				"value": 10,
+				"value_name": "本月得分"
+			}]
+		}, {
+			"id": "kpiid",
+			"kpi_name": "LTE",
+			"ne_dim": "xx",
+			"time_dim": "month",
+			"unit": "xx",
+			"is_up_good": 1,
+			"full_score": 12,
+			"threshold": 20,
+			"values": [{
+				"ne_name": "全网",
+				"value": 10,
+				"value_name": "月环比"
+			}]
+		}]
+	}, {
+		"id": "xxxx",
+		"name": "WLAN2",
+		"type": "DEFAULT",
+		"link_set": "xxxx",
+		"kpis": [{
+			"id": "kpiid",
+			"kpi_name": "WLAN",
+			"ne_dim": "xx",
+			"time_dim": "month",
+			"unit": "xx",
+			"is_up_good": 1,
+			"full_score": 12,
+			"threshold": 20,
+			"values": [{
+				"ne_name": "全网",
+				"value": 10,
+				"value_name": "本月得分"
+			}]
+		}, {
+			"id": "kpiid",
+			"kpi_name": "LTE",
+			"ne_dim": "xx",
+			"time_dim": "month",
+			"unit": "xx",
+			"is_up_good": 1,
+			"full_score": 12,
+			"threshold": 20,
+			"values": [{
+				"ne_name": "全网",
+				"value": 10,
+				"value_name": "月环比"
+			}]
+		}]
+	}, {
+		"id": "xxxx",
+		"name": "WLAN3",
+		"type": "DEFAULT",
+		"link_set": "xxxx",
+		"kpis": [{
+			"id": "kpiid",
+			"kpi_name": "WLAN",
+			"ne_dim": "xx",
+			"time_dim": "month",
+			"unit": "xx",
+			"is_up_good": 1,
+			"full_score": 12,
+			"threshold": 20,
+			"values": [{
+				"ne_name": "全网",
+				"value": 10,
+				"value_name": "本月得分"
+			}]
+		}, {
+			"id": "kpiid",
+			"kpi_name": "LTE",
+			"ne_dim": "xx",
+			"time_dim": "month",
+			"unit": "xx",
+			"is_up_good": 1,
+			"full_score": 12,
+			"threshold": 20,
+			"values": [{
+				"ne_name": "全网",
+				"value": 10,
+				"value_name": "月环比"
+			}]
+		}]
+	}]
+}

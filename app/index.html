@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>网络日报</title>
+    <!-- Path to Framework7 Library CSS-->
+    <!-- build:css css/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/Framework7/dist/css/framework7.material.min.css" />
+    <link rel="stylesheet" href="bower_components/Framework7/dist/css/framework7.material.colors.min.css" />
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!--  font icon  -->
+    <!-- Path to your custom app styles-->
+    <!-- build:css css/my-app.css -->
+    <link rel="stylesheet" href="css/my-app.css">
+    <!-- endbuild -->
+
+
+</head>
+<body>
+<!-- Status bar overlay for fullscreen mode-->
+<div class="statusbar-overlay"></div>
+<!-- Panels overlay-->
+<div class="panel-overlay"></div>
+<!-- Left panel with reveal effect-->
+<div class="panel panel-left panel-reveal">
+    <div class="content-block">
+        <p>Left panel content goes here</p>
+    </div>
+</div>
+<!-- Right panel with cover effect-->
+<div class="panel panel-right panel-cover">
+    登录账号:<span id="user_id"></span>
+    <div class="content-block">
+        <div class="list-block m0">
+            <ul class="menu-list">
+
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- Views-->
+<div class="views">
+    <!-- Your main view, should have "view-main" class-->
+    <div class="view view-main">
+        <!-- Top Navbar-->
+        <div class="navbar navbar-hidden">
+            <div class="navbar-inner">
+                <div class="left sliding">
+                </div>
+                <div class="center sliding">网络日报</div>
+                <div class="right sliding">
+                    <div class="item-input">
+                        <select>
+                            <option>第一页</option>
+                            <option>第二页</option>
+                            <option>第三页</option>
+                            <option>第四页</option>
+
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-through toolbar-through">
+            <div data-page="index" class="page no-tabbar"></div>
+        </div>
+    </div>
+
+</div>
+<!-- build:js js/vendor.js -->
+<script type="text/javascript" src="bower_components/lodash/dist/lodash.min.js"></script>
+<script type="text/javascript" src="bower_components/Framework7/dist/js/framework7.min.js"></script>
+<!-- endbuild -->
+
+<!-- reference to to your app.js-->
+<script data-main="app" src="bower_components/requirejs/require.js"></script>
+<div class="popup popup-chart" style="height:450px; margin-top: 200px;">
+    <p style="text-align: right;margin-right: 20px;"><a href="#" class="close-popup">关闭</a></p>
+
+    <div class="content-block">
+        <div class="chart-body highchartstyle container_chart">chart,here</div>
+    </div>
+</div>
+</body>
+</html>

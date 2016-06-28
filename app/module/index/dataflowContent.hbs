@@ -1,0 +1,438 @@
+<div class="swiper-container-h swiper-init-dataflow">
+    <div class="swiper-pagination swiper-pagination-dataflow"></div>
+    <div class="swiper-wrapper">
+        <div class="swiper-slide dataflow1">
+            <!-- 第一部分-s -->
+            <div class="topdatabox">
+                <div class="tdcon">
+                    <!-- 日期+菜单-s -->
+                    <div class="p10">
+                        <div class="clearfix w">
+                            <div class="fl"><i class="fa fa-calendar f16 mr5"></i><input type="date" class="report-time color-lightwhite"/></div>
+                            <div class="fr">
+                                <a href="#" data-panel="right" class=" open-panel">
+                                    <span class="color-lightwhite">数据流量</span><i
+                                        class="fa fa-bars f16 ml5"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 日期+菜单-e -->
+                    <!-- 总流量-s -->
+                    <div class="ml20 mr20 tc borderbottom">
+                        <p class="m0 color-lightwhite f16">无线数据总流量</p>
+
+                        <h1 class="m0 color-yellow f45"><span class="dataflow_16_c">449.4TB</span><i
+                                class="fa fa-exclamation-circle f16 ml5 btn_rank" style="color: #ffffff"
+                                id="dataflow_btn_rank"></i></h1>
+
+                        <p class="m0 color-lightwhite f12" >年累计数据流量：<i class="dataflow_16_lj">53267.22TB</i></p>
+                    </div>
+                    <!-- 总流量-e -->
+                    <!-- 月环比，周环比，年同比 -s-->
+                    <div class="m20">
+                        <ul class="datacol3">
+                            <li>
+                                <div class="borderright tc">
+                                    <p class="m0 color-lightwhite f12 fb">周环比</p>
+
+                                    <h2 class="mt5 mb0 f20 dataflow_16_week">2.89%<i class="downarrow ml5"></i>
+                                    </h2>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="borderright tc">
+                                    <p class="m0 color-lightwhite f12 fb">月环比</p>
+
+                                    <h2 class="mt5 mb0 f20 dataflow_16_month">5.14%<i class="uparrow ml5"></i></h2>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="tc">
+                                    <p class="m0 color-lightwhite f12 fb">年同比</p>
+
+                                    <h2 class="mt5 mb0 f20 dataflow_16_year" >139.62%</h2>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- 月环比，周环比，年同比 -e-->
+                </div>
+            </div>
+            <!-- 第一部分-e -->
+            <div class="tabbar tabbar-scrollable pr uitab">
+                <div class="toolbar-inner">
+                    <!-- 关联到第一个tab的链接，默认激活 -->
+                    <a href="#dataflow_tab1" class="tab-link active button borderright">
+                        <h3 class="f20 m0 fn dataflow_gsm_c" id="">20.25TB</h3>
+
+                        <div class="m0 f12 op6">2G(TB)</div>
+                    </a>
+                    <!-- 关联到第二个tab的链接 -->
+                    <a href="#dataflow_tab2" class="tab-link button borderright">
+                        <h3 class="f20 m0 fn dataflow_td_c"  id="">19.66TB</h3>
+
+                        <div class="m0 f12 op6">TD(TB)</div>
+                    </a>
+                    <!-- 关联到第三个tab的链接 -->
+                    <a href="#dataflow_tab3" class="tab-link button">
+                        <h3 class="f20 m0 fn dataflow_lte_c" id="">409.49TB</h3>
+
+                        <div class="m0 f12 op6">LTE(TB)</div>
+                    </a>
+                </div>
+            </div>
+            <div class="tabs-animated-wrap">
+                <!-- Tabs, tabs容器 -->
+                <div class="tabs">
+                    <!-- Tab 1，默认激活 -->
+                    <div id="dataflow_tab1" class="tab active">
+                        <div class="boxcon mt15">
+                            <div class="borderbottom">
+                                <ul class="datacol2">
+                                    <li>
+                                        <div class="borderright tc">
+                                            <div class="onelinebox">
+                                                <label>周环比</label>
+
+                                                <div class="dataflow_gsm_week f20">0.94%</div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="tc">
+                                            <div class="onelinebox">
+                                                <label>月环比</label>
+
+                                                <div class="dataflow_gsm_month f20">-7.72%</div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="borderbottom">
+                                <ul class="datacol2">
+                                    <li>
+                                        <div class=" tc">
+                                            <div class="onelinebox">
+                                                <label>年同比</label>
+
+                                                <div class="dataflow_gsm_year f20">-35.22%</div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tab 2 -->
+                    <div id="dataflow_tab2" class="tab">
+                        <div class="boxcon mt15">
+                            <div class="borderbottom">
+                                <ul class="datacol2">
+                                    <li>
+                                        <div class="borderright tc">
+                                            <div class="onelinebox">
+                                                <label>周环比</label>
+
+                                                <div class="dataflow_td_week f20">0.18%</div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="tc">
+                                            <div class="onelinebox">
+                                                <label>月环比</label>
+
+                                                <div class="dataflow_td_month f20">-9.64%</div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="borderbottom">
+                                <ul class="datacol2">
+                                    <li>
+                                        <div class=" tc">
+                                            <div class="onelinebox">
+                                                <label>年同比</label>
+
+                                                <div class="dataflow_td_year f20">-35.06%</div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tab 3 -->
+                    <div id="dataflow_tab3" class="tab">
+                        <div class="boxtitleout tc" id="data-flow-btn-lte-more"><a href="#" >(详情)</a>
+
+                        </div>
+                        <div class="boxcon mt15">
+                            <div class="borderbottom">
+                                <ul class="datacol2">
+                                    <li>
+                                        <div class="borderright tc">
+                                            <div class="onelinebox">
+                                                <label>周环比</label>
+
+                                                <div class="dataflow_lte_week f20">3.12%</div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="tc">
+                                            <div class="onelinebox">
+                                                <label>月环比</label>
+
+                                                <div class="dataflow_lte_month f20">6.72%</div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="borderbottom">
+                                <ul class="datacol2">
+                                    <li>
+                                        <div class="borderright tc">
+                                            <div class="onelinebox">
+                                                <label>年同比</label>
+
+                                                <div class="dataflow_lte_year f20">-224.95%</div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class=" tc">
+                                            <div class="onelinebox">
+                                                <label>总流量占比</label>91.12%
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-slide dataflow2">
+            <!-- 第一部分-s -->
+            <div class="topdatabox">
+                <div class="tdcon">
+                    <!-- 日期+菜单-s -->
+                    <div class="p10">
+                        <div class="clearfix w">
+                            <div class="fl"><i class="fa fa-calendar f16 mr5"></i><input type="date" class="report-time color-lightwhite"/></div>
+                            <div class="fr">
+                                <a href="#" data-panel="right" class=" open-panel">
+                                    <span class="color-lightwhite">数据流量</span><i
+                                        class="fa fa-bars f16 ml5"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 日期+菜单-e -->
+                    <!-- 总流量-s -->
+                    <div class="ml20 mr20 tc borderbottom">
+                        <p class="m0 color-lightwhite f16">年累计数据流量(TB)</p>
+
+                        <h1 class="m0 color-yellow f45 dataflow_16_lj">53267.22TB</h1>
+
+                        <p class="m0 color-lightwhite f12 dataflow_16_ljb">年同比：150.46%</p>
+
+                    </div>
+                    <!-- 总流量-e -->
+                    <!-- 月环比，周环比，年同比 -s-->
+                    <div class="m20">
+                        <ul class="datacol3">
+                            <li>
+                                <div class="borderright tc">
+                                    <p class="m0 color-lightwhite f12 fb">2G流量(TB)</p>
+
+                                    <h2 class="mt5 mb0 f20 dataflow_gsm_lj">2883.12TB</h2>
+
+                                    <p class="m0 color-lightwhite f12">年同比：<i class="dataflow_gsm_ljb">-32.23%</i><i class="downarrow ml5"></i></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="borderright tc">
+                                    <p class="m0 color-lightwhite f12 fb">TD流量(TB)</p>
+
+                                    <h2 class="mt5 mb0 f20 dataflow_td_lj">3049.31TB</h2>
+
+                                    <p class="m0 color-lightwhite f12">年同比：<i class="dataflow_td_ljb">-21.73%</i><i class="downarrow ml5"></i></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="tc">
+                                    <p class="m0 color-lightwhite f12 fb">LTE流量(TB)</p>
+
+                                    <h2 class="mt5 mb0 f20 dataflow_lte_lj">47334.8TB</h2>
+
+                                    <p class="m0 color-lightwhite f12">年同比：<i class="dataflow_lte_ljb">260.86%</i><i class="uparrow ml5"></i></p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- 月环比，周环比，年同比 -e-->
+                </div>
+            </div>
+            <!-- 第一部分-e -->
+            <div class="boxcon noborder">
+                <div class="list-block uilistblock">
+
+                </div>
+            </div>
+
+        </div>
+        <div class="swiper-slide dataflow3">
+            <!-- 第一部分-s -->
+            <div class="topdatabox">
+                <div class="tdcon">
+                    <!-- 日期+菜单-s -->
+                    <div class="p10">
+                        <div class="clearfix w">
+                            <div class="fl"><i class="fa fa-calendar f16 mr5"></i><input type="date" class="report-time color-lightwhite"/></div>
+                            <div class="fr">
+                                <a href="#" data-panel="right" class=" open-panel">
+                                    <span class="color-lightwhite">数据流量</span><i
+                                        class="fa fa-bars f16 ml5"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 日期+菜单-e -->
+                    <!-- 总流量-s -->
+                    <div class="ml20 mr20 tc borderbottom">
+                        <p class="m0 color-lightwhite f16">全天WLAN业务量(TB)</p>
+
+                        <h1 class="m0 color-yellow f45 dataflow_wlan_c">49.75TB</h1>
+                    </div>
+                    <!-- 总流量-e -->
+                    <!-- 月环比，周环比，年同比 -s-->
+                    <div class="m20">
+                        <ul class="datacol3">
+                            <li>
+                                <div class="borderright tc">
+                                    <p class="m0 color-lightwhite f12 fb">周环比</p>
+
+                                    <h2 class="mt5 mb0 f20 dataflow_wlan_week">2.89%<i class="downarrow ml5"></i></h2>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="borderright tc">
+                                    <p class="m0 color-lightwhite f12 fb">月环比</p>
+
+                                    <h2 class="mt5 mb0 f20 dataflow_wlan_month">5.14%<i class="uparrow ml5"></i></h2>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="tc">
+                                    <p class="m0 color-lightwhite f12 fb">年同比</p>
+
+                                    <h2 class="mt5 mb0 f20 dataflow_wlan_year">139.62%</h2>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- 月环比，周环比，年同比 -e-->
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide dataflow4">
+            <!-- 第一部分-s -->
+            <div class="topdatabox">
+                <div class="tdcon">
+                    <!-- 日期+菜单-s -->
+                    <div class="p10">
+                        <div class="clearfix w">
+                            <div class="fl"><i class="fa fa-calendar f16 mr5"></i><input type="date" class="report-time color-lightwhite"/></div>
+                            <div class="fr">
+                                <a href="#" data-panel="right" class=" open-panel">
+                                    <span class="color-lightwhite">数据流量</span><i
+                                        class="fa fa-bars f16 ml5"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 日期+菜单-e -->
+                    <!-- 总流量-s -->
+                    <div class="ml20 mr20 tc borderbottom">
+                        <p class="m0 color-lightwhite f16">4G流量占比(含MIFI)</p>
+
+                        <h1 class="m0 color-yellow f45">98.18%</h1>
+                    </div>
+                    <!-- 总流量-e -->
+                    <!-- 月环比，周环比，年同比 -s-->
+                    <div class="m20">
+                        <ul class="datacol3">
+                            <li>
+                                <div class="borderright tc">
+                                    <p class="m0 color-lightwhite f12 fb">周环比</p>
+
+                                    <h2 class="mt5 mb0 f20">0.30%<i class="downarrow ml5"></i></h2>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="borderright tc">
+                                    <p class="m0 color-lightwhite f12 fb">月环比</p>
+
+                                    <h2 class="mt5 mb0 f20">0.15%<i class="uparrow ml5"></i></h2>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="borderright tc">
+                                    <p class="m0 color-lightwhite f12 fb">年环比</p>
+
+                                    <h2 class="mt5 mb0 f20">-</h2>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- 月环比，周环比，年同比 -e-->
+                </div>
+            </div>
+            <!-- 第一部分-e -->
+            <div class="boxcon noborder">
+                <div class="list-block uilistblock">
+                    <ul>
+                        <li class="item-content ">
+                            <div class="item-media"><span class="listicon">2G</span></div>
+                            <div class="item-inner">
+                                <div class="item-title">
+                                    <div class="f12 color-gary">手机上网用户数814.06万,数据流量7.91TB</div>
+                                    <div class="f12 color-gary">数据卡等终端上网用户数0万,数据流量1.17TB</div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item-content ">
+                            <div class="item-media"><span class="listicon">TD</span></div>
+                            <div class="item-inner">
+                                <div class="item-title">
+                                    <div class="f12 color-gary">手机上网用户数814.06万,数据流量7.91TB</div>
+                                    <div class="f12 color-gary">数据卡等终端上网用户数0万,数据流量1.17TB</div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item-content ">
+                            <div class="item-media"><span class="listicon">LTE</span></div>
+                            <div class="item-inner">
+                                <div class="item-title">
+                                    <div class="f12 color-gary">手机上网用户数814.06万,数据流量7.91TB</div>
+                                    <div class="f12 color-gary">数据卡等终端上网用户数0万,数据流量1.17TB</div>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
