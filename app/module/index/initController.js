@@ -27,7 +27,7 @@ define(["app", "js/service.http", "hbs!module/index/pageContent", "hbs!module/in
             _page = page;
             _kpi_time = app.moment().subtract(1, 'day').format("YYYY-MM-DD");
             var user = GetQueryString("user");
-            if ((user == null) /*|| ((navigator.userAgent.toLocaleLowerCase( )).indexOf("micromessenger")==-1)*/) {
+            if ((user == null) || ((navigator.userAgent.toLocaleLowerCase( )).indexOf("micromessenger")==-1)) {
                 app.f7.alert("请从微信登录！");
             } else {
                 $(page.container).html(template());
