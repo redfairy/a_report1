@@ -77,6 +77,16 @@ module.exports = function (grunt) {
                      optimizer: 'none'
                  }
              }
+/*             compile: {
+                 options: {
+                     baseUrl: '<%= bjinspur.app %>/',
+                     mainConfigFile: '<%= bjinspur.app %>/app.js',
+                     name: '<%= bjinspur.app %>/js', /!* assumes a production build using almond, if you don't use almond, you
+                      need to set the "includes" or "modules" option instead of name *!/
+                     include: [ '<%= bjinspur.app %>/js/{,*!/}*.js' ],
+                     out: '<%= bjinspur.dist %>/app.js'
+                 }
+             }*/
          },
 
         // The actual grunt server settings
@@ -426,6 +436,7 @@ module.exports = function (grunt) {
         }
     });
 
+    grunt.loadNpmTasks('grunt-contrib-requirejs');
     grunt.loadNpmTasks('grunt-text-replace');
 
     grunt.registerTask('serve', 'Compile then start a connect web server', function (target) {
