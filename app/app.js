@@ -1,15 +1,15 @@
 //****** require module config ****** 
 require.config({
   paths: {
-    handlebars: "bower_components/handlebars/handlebars",
-    text: "bower_components/text/text",
+    handlebars: "../bower_components/handlebars/handlebars",
+    text: "../bower_components/text/text",
     hbs: "lib/hbs",
-    q: "bower_components/q/q",
-    highcharts: "bower_components/highcharts/highcharts",
-    jquery: "bower_components/jquery/dist/jquery",
-    moment: "bower_components/moment/moment",
-    "highcharts-more": "bower_components/highcharts/highcharts-more",
-    exporting: "bower_components/highcharts/modules/exporting"
+    q: "../bower_components/q/q",
+    highcharts: "../bower_components/highcharts/highcharts",
+    jquery: "../bower_components/jquery/dist/jquery",
+    moment: "../bower_components/moment/moment",
+    "highcharts-more": "../bower_components/highcharts/highcharts-more",
+    exporting: "../bower_components/highcharts/modules/exporting"
   },
   shim: {
     handlebars: {
@@ -33,7 +33,7 @@ define("app",
         "js/partials", 
         "js/service.dao",
          "jquery", "highcharts",
-        "js/uicontroller","moment"], function(router, Utils, partials, dao, jQuery, highcharts, controller,moment) {
+        "js/uicontroller","moment","js/service.http"], function(router, Utils, partials, dao, jQuery, highcharts, controller,moment,services) {
 
   
   //hide splash, @2015/11/10
@@ -55,10 +55,7 @@ define("app",
   var mainView = f7.addView('.view-main', {
     dynamicNavbar: true
   });
-
-/*
-      Handlebars.registerPartial('news', news);
-*/
+      
 
   //add app level event listener
   //@2015/08/07
